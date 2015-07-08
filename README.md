@@ -25,9 +25,9 @@ Example :
 ```
 celery -A tasks worker --loglevel=info --beat
 ```
-display the data on mongnoDB data base
+#display the data on mongnoDB data base
 
-using commandline on new shell
+##using commandline on new shell
 >show dbs
 #my_sms_db
 >use my_sms_dbs
