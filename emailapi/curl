@@ -1,1 +1,0 @@
- curl -v -XPOST -d '{"email_subject" :"hii everyone", "email_to": "aakhtar189@gmail.com", "email_from":"asifakhtar7860@gmail.com", "email_subject" : "hello", "email_body": "hey asif how was ur internship", "email_type": "info", "email_password" : "facebook!@#"}' http://localhost:8060/email
