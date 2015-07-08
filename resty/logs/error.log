@@ -1,0 +1,319 @@
+2015/06/25 12:21:10 [error] 5911#0: *1 "/home/zopper/Desktop/mynew/resty/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8060"
+2015/06/25 12:21:10 [error] 5911#0: *1 open() "/home/zopper/Desktop/mynew/resty/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8060", referrer: "http://127.0.0.1:8060/"
+2015/06/25 12:24:45 [error] 5911#0: *3 "/home/zopper/Desktop/mynew/resty/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8060"
+2015/06/25 12:38:59 [error] 5911#0: *7 "/home/zopper/Desktop/mynew/resty/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "POST / HTTP/1.1", host: "localhost:8060"
+2015/06/25 12:39:26 [error] 5911#0: *8 "/home/zopper/Desktop/mynew/resty/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "POST / HTTP/1.1", host: "localhost:8060"
+2015/06/25 13:21:39 [error] 5911#0: *9 "/home/zopper/Desktop/mynew/resty/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8060"
+2015/06/25 13:33:37 [error] 5911#0: *13 "/home/zopper/Desktop/mynew/resty/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8060"
+2015/06/25 13:34:22 [error] 5911#0: *13 "/home/zopper/Desktop/mynew/resty/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8060"
+2015/06/25 13:35:16 [error] 5911#0: *13 open() "/home/zopper/Desktop/mynew/resty/html/ curl -v -XPOST -d '{"mobile_no" : ["9784452430","32323727"], "message" : "HEllo"}'" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET //%20curl%20-v%20-XPOST%20-d%20'%7B%22mobile_no%22%20:%20[%229784452430%22,%2232323727%22],%20%22message%22%20:%20%22HEllo%22%7D' HTTP/1.1", host: "127.0.0.1:8060"
+2015/06/25 14:44:53 [error] 4995#0: *1 "/home/zopper/Desktop/mynew/resty/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8060"
+2015/06/25 14:44:53 [error] 4995#0: *1 open() "/home/zopper/Desktop/mynew/resty/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8060", referrer: "http://localhost:8060/"
+2015/06/25 14:46:05 [error] 4995#0: *3 "/home/zopper/Desktop/mynew/resty/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "POST / HTTP/1.1", host: "localhost:8060"
+2015/06/25 14:46:25 [error] 4995#0: *4 "/home/zopper/Desktop/mynew/resty/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "POST / HTTP/1.1", host: "localhost:8060"
+2015/06/25 14:47:36 [error] 4995#0: *5 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:42):3: module 'resty.libcjson' not found:
+	no field package.preload['resty.libcjson']
+	no file '/usr/local/openresty/lualib/resty/libcjson.lua'
+	no file '/usr/local/openresty/lualib/resty/libcjson/init.lua'
+	no file './resty/libcjson.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-alpha/resty/libcjson.lua'
+	no file '/usr/local/share/lua/5.1/resty/libcjson.lua'
+	no file '/usr/local/share/lua/5.1/resty/libcjson/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/resty/libcjson.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/resty/libcjson/init.lua'
+	no file '/usr/local/openresty/lualib/resty/libcjson.so'
+	no file './resty/libcjson.so'
+	no file '/usr/local/lib/lua/5.1/resty/libcjson.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/resty/libcjson.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/usr/local/openresty/lualib/resty.so'
+	no file './resty.so'
+	no file '/usr/local/lib/lua/5.1/resty.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/resty.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:42):3: in function <content_by_lua(nginx.conf:42):1>, client: 127.0.0.1, server: , request: "POST /sms HTTP/1.1", host: "localhost:8060"
+2015/06/25 14:47:42 [error] 4995#0: *6 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:42):3: module 'resty.libcjson' not found:
+	no field package.preload['resty.libcjson']
+	no file '/usr/local/openresty/lualib/resty/libcjson.lua'
+	no file '/usr/local/openresty/lualib/resty/libcjson/init.lua'
+	no file './resty/libcjson.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-alpha/resty/libcjson.lua'
+	no file '/usr/local/share/lua/5.1/resty/libcjson.lua'
+	no file '/usr/local/share/lua/5.1/resty/libcjson/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/resty/libcjson.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/resty/libcjson/init.lua'
+	no file '/usr/local/openresty/lualib/resty/libcjson.so'
+	no file './resty/libcjson.so'
+	no file '/usr/local/lib/lua/5.1/resty/libcjson.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/resty/libcjson.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/usr/local/openresty/lualib/resty.so'
+	no file './resty.so'
+	no file '/usr/local/lib/lua/5.1/resty.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/resty.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:42):3: in function <content_by_lua(nginx.conf:42):1>, client: 127.0.0.1, server: , request: "POST /sms HTTP/1.1", host: "localhost:8060"
+2015/06/25 14:48:59 [notice] 5081#0: signal process started
+2015/06/25 15:26:54 [error] 5085#0: *19 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:78):4: module 'resty.libcjson' not found:
+	no field package.preload['resty.libcjson']
+	no file '/usr/local/openresty/lualib/resty/libcjson.lua'
+	no file '/usr/local/openresty/lualib/resty/libcjson/init.lua'
+	no file './resty/libcjson.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-alpha/resty/libcjson.lua'
+	no file '/usr/local/share/lua/5.1/resty/libcjson.lua'
+	no file '/usr/local/share/lua/5.1/resty/libcjson/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/resty/libcjson.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/resty/libcjson/init.lua'
+	no file '/usr/local/openresty/lualib/resty/libcjson.so'
+	no file './resty/libcjson.so'
+	no file '/usr/local/lib/lua/5.1/resty/libcjson.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/resty/libcjson.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/usr/local/openresty/lualib/resty.so'
+	no file './resty.so'
+	no file '/usr/local/lib/lua/5.1/resty.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/resty.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:78):4: in function <content_by_lua(nginx.conf:78):1>, client: 127.0.0.1, server: , request: "POST /email HTTP/1.1", host: "localhost:8060"
+2015/06/25 15:27:00 [error] 5085#0: *20 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:78):4: module 'resty.libcjson' not found:
+	no field package.preload['resty.libcjson']
+	no file '/usr/local/openresty/lualib/resty/libcjson.lua'
+	no file '/usr/local/openresty/lualib/resty/libcjson/init.lua'
+	no file './resty/libcjson.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-alpha/resty/libcjson.lua'
+	no file '/usr/local/share/lua/5.1/resty/libcjson.lua'
+	no file '/usr/local/share/lua/5.1/resty/libcjson/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/resty/libcjson.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/resty/libcjson/init.lua'
+	no file '/usr/local/openresty/lualib/resty/libcjson.so'
+	no file './resty/libcjson.so'
+	no file '/usr/local/lib/lua/5.1/resty/libcjson.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/resty/libcjson.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/usr/local/openresty/lualib/resty.so'
+	no file './resty.so'
+	no file '/usr/local/lib/lua/5.1/resty.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/resty.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:78):4: in function <content_by_lua(nginx.conf:78):1>, client: 127.0.0.1, server: , request: "POST /email HTTP/1.1", host: "localhost:8060"
+2015/06/25 15:27:01 [error] 5085#0: *21 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:78):4: module 'resty.libcjson' not found:
+	no field package.preload['resty.libcjson']
+	no file '/usr/local/openresty/lualib/resty/libcjson.lua'
+	no file '/usr/local/openresty/lualib/resty/libcjson/init.lua'
+	no file './resty/libcjson.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-alpha/resty/libcjson.lua'
+	no file '/usr/local/share/lua/5.1/resty/libcjson.lua'
+	no file '/usr/local/share/lua/5.1/resty/libcjson/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/resty/libcjson.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/resty/libcjson/init.lua'
+	no file '/usr/local/openresty/lualib/resty/libcjson.so'
+	no file './resty/libcjson.so'
+	no file '/usr/local/lib/lua/5.1/resty/libcjson.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/resty/libcjson.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/usr/local/openresty/lualib/resty.so'
+	no file './resty.so'
+	no file '/usr/local/lib/lua/5.1/resty.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/resty.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:78):4: in function <content_by_lua(nginx.conf:78):1>, client: 127.0.0.1, server: , request: "POST /email HTTP/1.1", host: "localhost:8060"
+2015/06/25 15:27:37 [error] 5085#0: *22 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:78):4: module 'resty.libcjson' not found:
+	no field package.preload['resty.libcjson']
+	no file '/usr/local/openresty/lualib/resty/libcjson.lua'
+	no file '/usr/local/openresty/lualib/resty/libcjson/init.lua'
+	no file './resty/libcjson.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-alpha/resty/libcjson.lua'
+	no file '/usr/local/share/lua/5.1/resty/libcjson.lua'
+	no file '/usr/local/share/lua/5.1/resty/libcjson/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/resty/libcjson.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/resty/libcjson/init.lua'
+	no file '/usr/local/openresty/lualib/resty/libcjson.so'
+	no file './resty/libcjson.so'
+	no file '/usr/local/lib/lua/5.1/resty/libcjson.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/resty/libcjson.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/usr/local/openresty/lualib/resty.so'
+	no file './resty.so'
+	no file '/usr/local/lib/lua/5.1/resty.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/resty.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:78):4: in function <content_by_lua(nginx.conf:78):1>, client: 127.0.0.1, server: , request: "POST /email HTTP/1.1", host: "localhost:8060"
+2015/06/25 15:27:38 [error] 5085#0: *23 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:78):4: module 'resty.libcjson' not found:
+	no field package.preload['resty.libcjson']
+	no file '/usr/local/openresty/lualib/resty/libcjson.lua'
+	no file '/usr/local/openresty/lualib/resty/libcjson/init.lua'
+	no file './resty/libcjson.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-alpha/resty/libcjson.lua'
+	no file '/usr/local/share/lua/5.1/resty/libcjson.lua'
+	no file '/usr/local/share/lua/5.1/resty/libcjson/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/resty/libcjson.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/resty/libcjson/init.lua'
+	no file '/usr/local/openresty/lualib/resty/libcjson.so'
+	no file './resty/libcjson.so'
+	no file '/usr/local/lib/lua/5.1/resty/libcjson.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/resty/libcjson.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/usr/local/openresty/lualib/resty.so'
+	no file './resty.so'
+	no file '/usr/local/lib/lua/5.1/resty.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/resty.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:78):4: in function <content_by_lua(nginx.conf:78):1>, client: 127.0.0.1, server: , request: "POST /email HTTP/1.1", host: "localhost:8060"
+2015/06/25 15:27:38 [error] 5085#0: *24 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:78):4: module 'resty.libcjson' not found:
+	no field package.preload['resty.libcjson']
+	no file '/usr/local/openresty/lualib/resty/libcjson.lua'
+	no file '/usr/local/openresty/lualib/resty/libcjson/init.lua'
+	no file './resty/libcjson.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-alpha/resty/libcjson.lua'
+	no file '/usr/local/share/lua/5.1/resty/libcjson.lua'
+	no file '/usr/local/share/lua/5.1/resty/libcjson/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/resty/libcjson.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/resty/libcjson/init.lua'
+	no file '/usr/local/openresty/lualib/resty/libcjson.so'
+	no file './resty/libcjson.so'
+	no file '/usr/local/lib/lua/5.1/resty/libcjson.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/resty/libcjson.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/usr/local/openresty/lualib/resty.so'
+	no file './resty.so'
+	no file '/usr/local/lib/lua/5.1/resty.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/resty.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:78):4: in function <content_by_lua(nginx.conf:78):1>, client: 127.0.0.1, server: , request: "POST /email HTTP/1.1", host: "localhost:8060"
+2015/06/25 15:27:39 [error] 5085#0: *25 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:78):4: module 'resty.libcjson' not found:
+	no field package.preload['resty.libcjson']
+	no file '/usr/local/openresty/lualib/resty/libcjson.lua'
+	no file '/usr/local/openresty/lualib/resty/libcjson/init.lua'
+	no file './resty/libcjson.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-alpha/resty/libcjson.lua'
+	no file '/usr/local/share/lua/5.1/resty/libcjson.lua'
+	no file '/usr/local/share/lua/5.1/resty/libcjson/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/resty/libcjson.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/resty/libcjson/init.lua'
+	no file '/usr/local/openresty/lualib/resty/libcjson.so'
+	no file './resty/libcjson.so'
+	no file '/usr/local/lib/lua/5.1/resty/libcjson.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/resty/libcjson.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/usr/local/openresty/lualib/resty.so'
+	no file './resty.so'
+	no file '/usr/local/lib/lua/5.1/resty.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/resty.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:78):4: in function <content_by_lua(nginx.conf:78):1>, client: 127.0.0.1, server: , request: "POST /email HTTP/1.1", host: "localhost:8060"
+2015/06/25 15:27:40 [error] 5085#0: *26 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:78):4: module 'resty.libcjson' not found:
+	no field package.preload['resty.libcjson']
+	no file '/usr/local/openresty/lualib/resty/libcjson.lua'
+	no file '/usr/local/openresty/lualib/resty/libcjson/init.lua'
+	no file './resty/libcjson.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-alpha/resty/libcjson.lua'
+	no file '/usr/local/share/lua/5.1/resty/libcjson.lua'
+	no file '/usr/local/share/lua/5.1/resty/libcjson/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/resty/libcjson.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/resty/libcjson/init.lua'
+	no file '/usr/local/openresty/lualib/resty/libcjson.so'
+	no file './resty/libcjson.so'
+	no file '/usr/local/lib/lua/5.1/resty/libcjson.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/resty/libcjson.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/usr/local/openresty/lualib/resty.so'
+	no file './resty.so'
+	no file '/usr/local/lib/lua/5.1/resty.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/resty.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:78):4: in function <content_by_lua(nginx.conf:78):1>, client: 127.0.0.1, server: , request: "POST /email HTTP/1.1", host: "localhost:8060"
+2015/06/25 15:28:09 [error] 5085#0: *27 lua entry thread aborted: runtime error: content_by_lua(nginx.conf:78):4: module 'resty.libcjson' not found:
+	no field package.preload['resty.libcjson']
+	no file '/usr/local/openresty/lualib/resty/libcjson.lua'
+	no file '/usr/local/openresty/lualib/resty/libcjson/init.lua'
+	no file './resty/libcjson.lua'
+	no file '/usr/local/openresty/luajit/share/luajit-2.1.0-alpha/resty/libcjson.lua'
+	no file '/usr/local/share/lua/5.1/resty/libcjson.lua'
+	no file '/usr/local/share/lua/5.1/resty/libcjson/init.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/resty/libcjson.lua'
+	no file '/usr/local/openresty/luajit/share/lua/5.1/resty/libcjson/init.lua'
+	no file '/usr/local/openresty/lualib/resty/libcjson.so'
+	no file './resty/libcjson.so'
+	no file '/usr/local/lib/lua/5.1/resty/libcjson.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/resty/libcjson.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+	no file '/usr/local/openresty/lualib/resty.so'
+	no file './resty.so'
+	no file '/usr/local/lib/lua/5.1/resty.so'
+	no file '/usr/local/openresty/luajit/lib/lua/5.1/resty.so'
+	no file '/usr/local/lib/lua/5.1/loadall.so'
+stack traceback:
+coroutine 0:
+	[C]: in function 'require'
+	content_by_lua(nginx.conf:78):4: in function <content_by_lua(nginx.conf:78):1>, client: 127.0.0.1, server: , request: "POST /email HTTP/1.1", host: "localhost:8060"
+2015/06/25 15:32:38 [emerg] 5936#0: bind() to 0.0.0.0:8060 failed (98: Address already in use)
+2015/06/25 15:32:38 [emerg] 5936#0: bind() to 0.0.0.0:8060 failed (98: Address already in use)
+2015/06/25 15:32:38 [emerg] 5936#0: bind() to 0.0.0.0:8060 failed (98: Address already in use)
+2015/06/25 15:32:38 [emerg] 5936#0: bind() to 0.0.0.0:8060 failed (98: Address already in use)
+2015/06/25 15:32:38 [emerg] 5936#0: bind() to 0.0.0.0:8060 failed (98: Address already in use)
+2015/06/25 15:32:38 [emerg] 5936#0: still could not bind()
+2015/06/25 15:32:52 [notice] 5938#0: signal process started
+2015/06/26 22:02:26 [error] 3746#0: *1 "/home/zopper/Desktop/mynew/resty/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "POST / HTTP/1.1", host: "localhost:8060"
+2015/06/26 22:03:46 [error] 3746#0: *2 "/home/zopper/Desktop/mynew/resty/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "POST / HTTP/1.1", host: "localhost:8060"
+2015/06/26 22:03:48 [error] 3746#0: *3 "/home/zopper/Desktop/mynew/resty/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "POST / HTTP/1.1", host: "localhost:8060"
+2015/06/26 22:03:50 [error] 3746#0: *4 "/home/zopper/Desktop/mynew/resty/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "POST / HTTP/1.1", host: "localhost:8060"
+2015/06/26 22:03:52 [error] 3746#0: *5 "/home/zopper/Desktop/mynew/resty/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "POST / HTTP/1.1", host: "localhost:8060"
+2015/06/26 22:05:05 [error] 3746#0: *6 "/home/zopper/Desktop/mynew/resty/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "POST / HTTP/1.1", host: "localhost:8060"
+2015/06/29 12:29:11 [emerg] 4316#0: bind() to 0.0.0.0:8060 failed (98: Address already in use)
+2015/06/29 12:29:11 [emerg] 4316#0: bind() to 0.0.0.0:8060 failed (98: Address already in use)
+2015/06/29 12:29:11 [emerg] 4316#0: bind() to 0.0.0.0:8060 failed (98: Address already in use)
+2015/06/29 12:29:11 [emerg] 4316#0: bind() to 0.0.0.0:8060 failed (98: Address already in use)
+2015/06/29 12:29:11 [emerg] 4316#0: bind() to 0.0.0.0:8060 failed (98: Address already in use)
+2015/06/29 12:29:11 [emerg] 4316#0: still could not bind()
+2015/07/06 13:03:51 [error] 25791#0: *1 "/home/zopper/Desktop/mynew/resty/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "127.0.0.1:8060"
+2015/07/06 13:03:51 [error] 25791#0: *1 open() "/home/zopper/Desktop/mynew/resty/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "127.0.0.1:8060", referrer: "http://127.0.0.1:8060/"
+2015/07/06 13:05:36 [emerg] 25948#0: bind() to 0.0.0.0:8060 failed (98: Address already in use)
+2015/07/06 13:05:36 [emerg] 25948#0: bind() to 0.0.0.0:8060 failed (98: Address already in use)
+2015/07/06 13:05:36 [emerg] 25948#0: bind() to 0.0.0.0:8060 failed (98: Address already in use)
+2015/07/06 13:05:36 [emerg] 25948#0: bind() to 0.0.0.0:8060 failed (98: Address already in use)
+2015/07/06 13:05:36 [emerg] 25948#0: bind() to 0.0.0.0:8060 failed (98: Address already in use)
+2015/07/06 13:05:36 [emerg] 25948#0: still could not bind()
+2015/07/06 13:55:14 [emerg] 27363#0: bind() to 0.0.0.0:8060 failed (98: Address already in use)
+2015/07/06 13:55:14 [emerg] 27363#0: bind() to 0.0.0.0:8060 failed (98: Address already in use)
+2015/07/06 13:55:14 [emerg] 27363#0: bind() to 0.0.0.0:8060 failed (98: Address already in use)
+2015/07/06 13:55:14 [emerg] 27363#0: bind() to 0.0.0.0:8060 failed (98: Address already in use)
+2015/07/06 13:55:14 [emerg] 27363#0: bind() to 0.0.0.0:8060 failed (98: Address already in use)
+2015/07/06 13:55:14 [emerg] 27363#0: still could not bind()
+2015/07/07 12:21:09 [notice] 9887#0: signal process started
+2015/07/07 12:24:29 [notice] 9907#0: signal process started
+2015/07/07 12:28:48 [notice] 10096#0: signal process started
+2015/07/07 12:31:46 [notice] 10253#0: signal process started
+2015/07/07 13:15:02 [notice] 10719#0: signal process started
+2015/07/07 14:47:04 [notice] 14675#0: signal process started
+2015/07/07 14:50:21 [error] 14679#0: *3 "/home/zopper/Desktop/mynew/resty/html/index.html" is not found (2: No such file or directory), client: 127.0.0.1, server: , request: "GET / HTTP/1.1", host: "localhost:8060"
+2015/07/07 14:50:21 [error] 14679#0: *3 open() "/home/zopper/Desktop/mynew/resty/html/favicon.ico" failed (2: No such file or directory), client: 127.0.0.1, server: , request: "GET /favicon.ico HTTP/1.1", host: "localhost:8060", referrer: "http://localhost:8060/"

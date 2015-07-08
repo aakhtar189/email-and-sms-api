@@ -1,0 +1,1 @@
+ curl -v -XPOST -d '{"message" : "hey asif u rock" , "message_type": "info", "mobile_no": "919784452430"}' http://localhost:8060/sms
